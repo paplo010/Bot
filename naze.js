@@ -2,9 +2,9 @@ process.on('uncaughtException', console.error)
 process.on('unhandledRejection', console.error)
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : wa.me/6282113821188
+	* Create By Paplo
+	* Follow https://github.com/paplo010
+	* Whatsapp : wa.me/201063510519
 */
 
 require('./settings');
@@ -783,7 +783,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 			break
 			case 'sc': case 'script': {
 				await naze.sendMessage(m.chat, {
-					text: `https://github.com/nazedev/hitori\n⬆️ Itu Sc nya cuy`,
+					text: `https://github.com/paplo010\n⬆️ Itu Sc nya cuy`,
 					contextInfo: {
 						forwardingScore: 10,
 						isForwarded: true,
@@ -824,7 +824,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 								if (i.status == 500) return m.reply('Grub Penuh!')
 								if (i.status == 403) {
 									await naze.sendMessage(m.chat, { text: `@${numbersOnly.split('@')[0]} Tidak Dapat Ditambahkan\n\nKarena Target Private\n\nUndangan Akan Dikirimkan Ke\n-> wa.me/${numbersOnly.replace(/\D/g, '')}\nMelalui Jalur Pribadi`, mentions: [numbersOnly] }, { quoted : m })
-									await naze.sendMessage(`${numbersOnly ? numbersOnly : '6282113821188@s.whatsapp.net'}`, { text: `${'https://chat.whatsapp.com/' + invv}\n------------------------------------------------------\n\nAdmin: @${m.sender.split('@')[0]}\nMengundang anda ke group ini\nSilahkan masuk jika berkehendak🙇`, detectLink: true, mentions: [numbersOnly, m.sender] }, { quoted : fkontak }).catch((err) => m.reply('Gagal Mengirim Undangan!'))
+									await naze.sendMessage(`${numbersOnly ? numbersOnly : '201063510519@s.whatsapp.net'}`, { text: `${'https://chat.whatsapp.com/' + invv}\n------------------------------------------------------\n\nAdmin: @${m.sender.split('@')[0]}\nMengundang anda ke group ini\nSilahkan masuk jika berkehendak🙇`, detectLink: true, mentions: [numbersOnly, m.sender] }, { quoted : fkontak }).catch((err) => m.reply('Gagal Mengirim Undangan!'))
 								} else if (i.status !== 200) {
 									m.reply('Gagal Add User')
 								}
@@ -1861,7 +1861,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 			}
 			break
 			case 'git': case 'gitclone': {
-				if (!args[0]) return m.reply(`Example: ${prefix + command} https://github.com/nazedev/hitori`)
+				if (!args[0]) return m.reply(`مثال: ${prefix + command} https://github.com/paplo010`)
 				if (!isUrl(args[0]) && !args[0].includes('github.com')) return m.reply('Gunakan Url Github!')
 				let [, user, repo] = args[0].match(/(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i) || []
 				try {
@@ -2611,17 +2611,17 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 				}
 				const menunya = `
 ╭──❍「 *USER INFO* 」❍
-├ *Nama* : ${m.pushName ? m.pushName : 'Tanpa Nama'}
-├ *Id* : @${m.sender.split('@')[0]}
-├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
+├ *الاسم* : ${m.pushName ? m.pushName : 'Tanpa Nama'}
+├ *Idالـ* : @${m.sender.split('@')[0]}
+├ *Userالـ* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
 ├ *Limit* : ${isVip ? 'VIP' : db.users[m.sender].limit }
 ├ *Uang* : ${db.users[m.sender] ? db.users[m.sender].uang.toLocaleString('id-ID') : '0'}
 ╰─┬────❍
 ╭─┴─❍「 *BOT INFO* 」❍
-├ *Nama Bot* : ${botname}
-├ *Powered* : @${'0@s.whatsapp.net'.split('@')[0]}
-├ *Owner* : @${owner[0].split('@')[0]}
-├ *Mode* : ${naze.public ? 'Public' : 'Self'}
+├ *اسم البوت* : ${botname}
+├ *يعمل بواسطة* : @${'0@s.whatsapp.net'.split('@')[0]}
+├ *المطور* : @${owner[0].split('@')[0]}
+├ *وضع البوت* : ${naze.public ? 'Public' : 'Self'}
 ├ *Prefix* :${db.set[botNumber].multiprefix ? '「 MULTI-PREFIX 」' : ' *'+prefix+'*' }
 ╰─┬────❍
 ╭─┴─❍「 *ABOUT* 」❍
@@ -2629,7 +2629,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 ├ *Hari* : ${hari}
 ├ *Jam* : ${jam} WIB
 ╰──────❍
-╭──❍「 *BOT* 」❍
+╭──❍「 *اوامر البوت* 」❍
 │${setv} ${prefix}profile
 │${setv} ${prefix}claim
 │${setv} ${prefix}buy [item] (nominal)
@@ -2651,7 +2651,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}q (reply pesan)
 │${setv} ${prefix}menfes (62xxx|nama samaran)
 ╰─┬────❍
-╭─┴❍「 *GROUP* 」❍
+╭─┴❍「 *اوامر الرومات* 」❍
 │${setv} ${prefix}add (62xxx)
 │${setv} ${prefix}kick (@tag/62xxx)
 │${setv} ${prefix}promote (@tag/62xxx)
@@ -2671,7 +2671,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}welcome (on/off)
 │${setv} ${prefix}antidelete (on/off)
 ╰─┬────❍
-╭─┴❍「 *SEARCH* 」❍
+╭─┴❍「 *اوامر البحث* 」❍
 │${setv} ${prefix}ytsearch (query)
 │${setv} ${prefix}pixiv (query)
 │${setv} ${prefix}pinterest (query)
@@ -2683,7 +2683,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}style (query)
 │${setv} ${prefix}cuaca (kota)
 ╰─┬────❍
-╭─┴❍「 *DOWNLOAD* 」❍
+╭─┴❍「 *اوامر التنزيل* 」❍
 │${setv} ${prefix}ytmp3 (url)
 │${setv} ${prefix}ytmp4 (url)
 │${setv} ${prefix}instagram (url)
@@ -2735,7 +2735,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}nightcore (reply audio)
 │${setv} ${prefix}getexif (reply sticker)
 ╰─┬────❍
-╭─┴❍「 *AI* 」❍
+╭─┴❍「 *الذكاء الاصطناعي* 」❍
 │${setv} ${prefix}ai (query)
 │${setv} ${prefix}simi (query)
 │${setv} ${prefix}txt2img (query)
@@ -2744,7 +2744,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}waifu
 │${setv} ${prefix}neko
 ╰─┬────❍
-╭─┴❍「 *GAME* 」❍
+╭─┴❍「 *الالعاب* 」❍
 │${setv} ${prefix}tictactoe
 │${setv} ${prefix}suit
 │${setv} ${prefix}slot
@@ -2786,7 +2786,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 │${setv} ${prefix}randomcolor
 │${setv} ${prefix}coffe
 ╰─┬────❍
-╭─┴❍「 *OWNER* 」❍
+╭─┴❍「 *المالك* 」❍
 │${setv} ${prefix}mode (public or self)
 │${setv} ${prefix}setbio
 │${setv} ${prefix}setppbot

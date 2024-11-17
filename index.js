@@ -46,9 +46,9 @@ const { GroupUpdate, GroupParticipantsUpdate, MessagesUpsert, Solving } = requir
 const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/function');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : wa.me/6282113821188
+	* Create By Paplo
+	* Follow https://github.com/paplo010
+	* Whatsapp : wa.me/201063510519
 */
 
 async function startNazeBot() {
@@ -63,7 +63,7 @@ async function startNazeBot() {
 			return msg?.message || ''
 		}
 		return {
-			conversation: 'Halo Saya Naze Bot'
+			conversation: '*يب مرحب بيك في Bot Paplo يحب*'
 		}
 	}
 	

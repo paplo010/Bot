@@ -1,29 +1,29 @@
 ## Information
 
 <div align="center">
-<a href="https://github.com/paplo010/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/paplo010?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/paplo010/network/members"><img title="Forks" src="https://img.shields.io/github/forks/paplo010?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/paplo010/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/paplo010?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/paplo010/issues"><img title="Issues" src="https://img.shields.io/github/issues/paplo010?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/paplo010/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/paplo010?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/paplo010/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/paplo010?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/paplo010/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/paplo010?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/paplo010/hitori?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/network/members"><img title="Forks" src="https://img.shields.io/github/forks/paplo010/hitori?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/paplo010/hitori?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/issues"><img title="Issues" src="https://img.shields.io/github/issues/paplo010/hitori?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/paplo010/hitori?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/paplo010/hitori?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/paplo010/hitori/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/paplo010/hitori?label=PullRequest&color=red&style=flat-square"></a>
 </div>
 
-This script is created by [paplo010](https://github.com/paplo010) using Node.js and the [paplo010](https://github.com/paplo010) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By paplo
+This script is created by [paplo010](https://github.com/paplo010) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Paplo
 
 ## Contributor
 
 - [paplo010](https://github.com/paplo010) (Pembuat)
-- [paplo010](https://github.com/paplo010) (Penyedia Layanan API)
-- [paplo010](https://github.com/paplo010) (Penyumbang Code)
+- [Zaynn](https://github.com/ZaynRcK) (Penyedia Layanan API)
+- [Dani](https://github.com/paplo010) (Penyumbang Code)
 
 #### Join Group
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VapvokVCHDyj6inRiP3T) 
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LxKpMUYGwEM7zw3bjoNlCe) 
 
 ---
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paplo010)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paplo010/hitori)
 
 #### Heroku Buildpack
 | Build Pack | LINK |
@@ -41,7 +41,7 @@ This script is created by [paplo010](https://github.com/paplo010) using Node.js 
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/paplo010
+git clone https://github.com/paplo010/hitori
 cd hitori
 npm install
 npm update
@@ -87,10 +87,10 @@ node .
 License: [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Support Me
-- [paplo010](https://saweria.co/paplo)
+- [Saweria](https://saweria.co/naze)
 
 ## Thanks to
 
-| [![paplo010](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) | [![paplo010](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) | [![paplo010](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) | [![WhiskeySockets](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) |
+| [![paplo010](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) | [![Zaynn](https://github.com/ZaynRcK.png?size=100)](https://github.com/ZaynRcK) | [![Dani](https://github.com/paplo010.png?size=100)](https://github.com/paplo010) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
 | --- | --- | --- | --- |
-| [paplo010](https://github.com/paplo010) | [paplo010](https://github.com/paplo010) | [paplo010](https://github.com/paplo010) | [paplo010](https://github.com/paplo010) |
+| [paplo010](https://github.com/paplo010) | [Zaynn](https://github.com/ZaynRcK) | [Dani](https://github.com/dani) | [WhiskeySockets](https://github.com/WhiskeySockets) |

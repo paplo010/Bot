@@ -2,17 +2,17 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : wa.me/6282113821188
+	* Create By Paplo
+	* Follow https://github.com/paplo010
+	* Whatsapp : wa.me/201063510519
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188','6281356484612','6285773557984']
-global.packname = 'Bot WhatsApp'
-global.author = 'Nazedev'
-global.botname = 'Naze Bot'
+global.owner = ['201063510519','201063510519','201063510519']
+global.packname = 'paplo bot'
+global.author = 'paplo010'
+global.botname = 'paplo Bot'
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
 global.pairing_code = true
@@ -26,10 +26,10 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
+	yt: 'https://youtube.com/paplo-hack,
+	gh: 'https://github.com/paplo010',
 	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
-	ch: '120363250409960161@newsletter',
+	ch: '201063510519@newsletter',
 }
 
 global.limit = {
@@ -60,7 +60,7 @@ global.APIs = {
 	zaynn: 'https://api.zaynn.my.id/api',
 }
 global.APIKeys = {
-	'https://api.zaynn.my.id/api': 'Najedev',
+	'https://api.zaynn.my.id/api': 'paplo010',
 }
 
 //~~~~~~~~~~~~~~~< PROCESS >~~~~~~~~~~~~~~~\\

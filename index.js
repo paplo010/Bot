@@ -52,7 +52,7 @@ const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sl
 */
 
 async function startNazeBot() {
-	const { state, saveCreds } = await useMultiFileAuthState('nazedev');
+	const { state, saveCreds } = await useMultiFileAuthState('paplo010');
 	const { version, isLatest } = await fetchLatestWaWebVersion();
 	const msgRetryCounterCache = new NodeCache();
 	const level = pino({ level: 'silent' })
@@ -106,7 +106,7 @@ async function startNazeBot() {
 		
 		setTimeout(async () => {
 			await getPhoneNumber()
-			await exec('rm -rf ./nazedev/*')
+			await exec('rm -rf ./paplo010/*')
 			let code = await naze.requestPairingCode(phoneNumber);
 			console.log(`Your Pairing Code : ${code}`);
 		}, 3000)
@@ -142,11 +142,11 @@ async function startNazeBot() {
 				startNazeBot()
 			} else if (reason === DisconnectReason.loggedOut) {
 				console.log('Scan again and Run...');
-				exec('rm -rf ./nazedev/*')
+				exec('rm -rf ./paplo010/*')
 				process.exit(1)
 			} else if (reason === DisconnectReason.Multidevicemismatch) {
 				console.log('Scan again...');
-				exec('rm -rf ./nazedev/*')
+				exec('rm -rf ./paplo010/*')
 				process.exit(0)
 			} else {
 				naze.end(`Unknown DisconnectReason : ${reason}|${connection}`)

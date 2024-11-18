@@ -13,7 +13,7 @@ global.owner = ['201063510519','201063510519','201063510519']
 global.packname = 'paplo bot'
 global.author = 'paplo010'
 global.botname = 'paplo Bot'
-global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
+global.listv = ['✎','❉','✉','✿','↻','➩','➢','❁','❏','✦','✧','△','❀','○','☪','♤','♡','☂','♧','々','〆']
 global.tempatDB = 'database.json'
 global.pairing_code = true
 
@@ -28,7 +28,7 @@ global.fake = {
 global.my = {
 	yt: 'https://youtube.com/paplo-hack,
 	gh: 'https://github.com/paplo010',
-	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
+	gc: 'https://whatsapp.com/channel/0029VapvokVCHDyj6inRiP3T',
 	ch: '201063510519@newsletter',
 }
 
